@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Padora — Privacy policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated: 26 August 2026</p>
+
+    <p>
+      This policy describes the <strong>Padora Android companion app</strong> (“the app”).
+      Padora is developed by odd.tiger (contact below).
+    </p>
+
+    <h2>Summary</h2>
+    <ul>
+      <li>Match history is stored <strong>on your phone only</strong>.</li>
+      <li>There is <strong>no cloud account</strong> and no Padora backend server in the current version.</li>
+      <li>We do <strong>not</strong> sell your data or use it for advertising.</li>
+      <li>Sync from your watch uses the Zepp app on your phone and a localhost connection on your device — data does not leave your phone except through that local sync path.</li>
+    </ul>
+
+    <h2>Data the app stores on your device</h2>
+    <p>When you sync from your watch, the app may store:</p>
+    <ul>
+      <li>Match date and time</li>
+      <li>Set scores and match result (winner or draw)</li>
+      <li>Internal match identifiers used for sync and delete</li>
+    </ul>
+    <p>This data stays in the app’s local storage on your phone until you delete it in the app.</p>
+
+    <h2>Watch pairing</h2>
+    <p>
+      If you set up watch pairing, a 6-digit pairing code is stored on your phone using
+      Android encrypted storage (<code>EncryptedSharedPreferences</code>). It is used only to
+      verify sync requests on your device. It is not sent to Padora servers (there are none).
+    </p>
+
+    <h2>What we do not collect</h2>
+    <ul>
+      <li>No Padora user account</li>
+      <li>No analytics or crash reporting SDKs in the current version</li>
+      <li>No collection of name, email, or location by the app</li>
+      <li>No automatic upload of your match history to our servers</li>
+    </ul>
+
+    <h2>Third-party services</h2>
+    <p>
+      Sync requires the <strong>Zepp</strong> mobile app and a compatible smartwatch running the
+      Padora watch app. Data flows watch → Zepp → your phone’s Padora app over a local connection
+      on the device. We do not control Zepp’s privacy practices; see Zepp’s policies for their app.
+    </p>
+
+    <h2>Backups and security</h2>
+    <p>
+      Android cloud backup for the app is disabled. Match history and pairing data remain on your
+      device unless you uninstall the app or clear its data.
+    </p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li>Delete individual matches in the app</li>
+      <li>Stop sync and remove the app to delete local data</li>
+      <li>Regenerate or clear pairing in Sync → Manage pairing</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>The app is not directed at children under 13.</p>
+
+    <h2>Changes</h2>
+    <p>
+      We may update this policy when the app changes (for example, if we add cloud features).
+      The “Last updated” date at the top will change accordingly.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about privacy: <a href="mailto:hugo.tigre@gmail.com">hugo.tigre@gmail.com</a>
+    </p>
+
+    <nav>
+      <a href="index.html">← Padora home</a>
+    </nav>
+  </main>
+</body>
+</html>
